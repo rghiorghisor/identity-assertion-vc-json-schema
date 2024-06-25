@@ -1,0 +1,42 @@
+{
+  "isValid": true,
+  "description": "The W3C VC credentialSubject.boundTo.referencedAssertions[?].url MAY not be present.",
+  "vc":  {
+    "@context": [
+      "https://www.w3.org/ns/credentials/v2",
+      "https://creator-assertions.github.io/tbd/tbd"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "CreatorIdentityAssertion"
+    ],
+    "issuer": "did:web:example.com",
+    "validFrom": "2024-05-27T11:40:40Z",
+    "credentialSubject": {
+      "id": "did:web:example.com:user:2uudc0k3xwv1xygtvm8itzud8p0j3wcr",
+      "person": [
+        {
+          "name": "First-Name Last-Name",
+          "verifiedBy": {
+            "id": "https://id-verifier-example.com",
+            "name": "ID Verifier Example",
+            "proof": "https://id-verifier-example.com/proofs/4c03s06xmp5qbixjlwgfmli0sfckdh49"
+          }
+        }
+      ],
+      "boundTo": {
+        "referencedAssertions": [
+          {
+            "hash": "hash"
+          }
+        ]
+      },
+      "credentialSchema": [
+        {
+          "id": "https://creator-assertions.github.io/schemas/v1/creator-identity-assertion.json",
+          "type": "JSONSchema"
+        }
+      ]
+    }
+  }
+}
