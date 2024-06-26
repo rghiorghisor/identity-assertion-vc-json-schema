@@ -8,7 +8,7 @@
     ],
     "type": [
       "VerifiableCredential",
-      "CreatorIdentityAssertion",
+      "CreatorIdentityAssertionCredential",
       "OtherType"
     ],
     "issuer": "did:web:example.com",

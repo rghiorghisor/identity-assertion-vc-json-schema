@@ -1,6 +1,6 @@
 {
   "isValid": false,
-  "description": "The W3C VC type MUST contain CreatorIdentityAssertion.",
+  "description": "The W3C VC type MUST contain CreatorIdentityAssertionCredential.",
   "errors": [
     "/type must contain at least 1 valid item(s)"
   ],

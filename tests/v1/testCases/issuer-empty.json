@@ -13,7 +13,7 @@
     ],
     "type": [
       "VerifiableCredential",
-      "CreatorIdentityAssertion"
+      "CreatorIdentityAssertionCredential"
     ],
     "issuer": "",
     "validFrom": "2024-05-27T11:40:40Z",

@@ -11,7 +11,7 @@
     ],
     "type": [
       "VerifiableCredential",
-      "CreatorIdentityAssertion"
+      "CreatorIdentityAssertionCredential"
     ],
     "issuer": "did:web:example.com",
     "validFrom": "",

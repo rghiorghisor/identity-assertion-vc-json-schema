@@ -13,7 +13,7 @@
     ],
     "type": [
       "VerifiableCredential",
-      "CreatorIdentityAssertion"
+      "CreatorIdentityAssertionCredential"
     ],
     "issuer": {
       "id": "did:web:example.com",
