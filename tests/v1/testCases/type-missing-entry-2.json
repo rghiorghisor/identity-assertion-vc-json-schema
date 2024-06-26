@@ -10,7 +10,7 @@
       "https://creator-assertions.github.io/tbd/tbd"
     ],
     "type": [
-      "CreatorIdentityAssertion"
+      "CreatorIdentityAssertionCredential"
     ],
     "issuer": "did:web:example.com",
     "validFrom": "2024-05-27T11:40:40Z",
