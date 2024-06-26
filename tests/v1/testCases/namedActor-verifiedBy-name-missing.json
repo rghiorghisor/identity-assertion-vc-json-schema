@@ -1,8 +1,8 @@
 {
   "isValid": false,
-  "description": "The W3C VC credentialSubject.person[?].verifiedBy.name MUST be present.",
+  "description": "The W3C VC credentialSubject.namedActor[?].verifiedBy.name MUST be present.",
   "errors": [
-    "/credentialSubject/person/0/verifiedBy must have required property 'name'"
+    "/credentialSubject/namedActor/0/verifiedBy must have required property 'name'"
   ],
   "vc":  {
     "@context": [
@@ -17,7 +17,7 @@
     "validFrom": "2024-05-27T11:40:40Z",
     "credentialSubject": {
       "id": "did:web:example.com:user:2uudc0k3xwv1xygtvm8itzud8p0j3wcr",
-      "person": [
+      "namedActor": [
         {
           "name": "First-Name Last-Name",
           "verifiedBy": {

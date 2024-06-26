@@ -1,12 +1,11 @@
 {
   "name": "identity-assertion-vc-json-schema",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0",
   "scripts": {
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Radu Ghiorghisor",
   "license": "ISC",
   "description": "",
   "dependencies": {
