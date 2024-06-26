@@ -1,8 +1,8 @@
 {
   "isValid": false,
-  "description": "The W3C VC credentialSubject.person.verifiedBy.id MUST be present.",
+  "description": "The W3C VC credentialSubject.namedActor[?].verifiedBy.id MUST not be empty.",
   "errors": [
-    "/credentialSubject/person/0/verifiedBy must have required property 'id'"
+    "/credentialSubject/namedActor/0/verifiedBy/id must match format \"uri\""
   ],
   "vc":  {
     "@context": [
@@ -17,10 +17,11 @@
     "validFrom": "2024-05-27T11:40:40Z",
     "credentialSubject": {
       "id": "did:web:example.com:user:2uudc0k3xwv1xygtvm8itzud8p0j3wcr",
-      "person": [
+      "namedActor": [
         {
           "name": "First-Name Last-Name",
-          "verifiedBy": {            
+          "verifiedBy": {
+            "id": "invalid-uri",
             "name": "ID Verifier Example",
             "proof": "https://id-verifier-example.com/proofs/4c03s06xmp5qbixjlwgfmli0sfckdh49"
           }

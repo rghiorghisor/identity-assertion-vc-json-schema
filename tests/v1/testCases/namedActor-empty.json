@@ -1,8 +1,8 @@
 {
   "isValid": false,
-  "description": "The W3C VC credentialSubject.person.name MUST have at least 1 character.",
+  "description": "The W3C VC credentialSubject.namedActor property MUST not be empty.",
   "errors": [
-    "/credentialSubject/person/0/name must NOT have fewer than 1 characters"
+    "/credentialSubject/namedActor must NOT have fewer than 1 items"
   ],
   "vc":  {
     "@context": [
@@ -17,15 +17,8 @@
     "validFrom": "2024-05-27T11:40:40Z",
     "credentialSubject": {
       "id": "did:web:example.com:user:2uudc0k3xwv1xygtvm8itzud8p0j3wcr",
-      "person": [
-        {
-          "name": "",
-          "verifiedBy": {
-            "id": "https://id-verifier-example.com",
-            "name": "ID Verifier Example",
-            "proof": "https://id-verifier-example.com/proofs/4c03s06xmp5qbixjlwgfmli0sfckdh49"
-          }
-        }
+      "namedActor": [
+
       ],
       "identities": [
         {

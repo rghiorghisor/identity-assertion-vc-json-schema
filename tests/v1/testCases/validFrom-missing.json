@@ -16,7 +16,7 @@
     "issuer": "did:web:example.com",
     "credentialSubject": {
       "id": "did:web:example.com:user:2uudc0k3xwv1xygtvm8itzud8p0j3wcr",
-      "person": [
+      "namedActor": [
         {
           "name": "First-Name Last-Name",
           "verifiedBy": {

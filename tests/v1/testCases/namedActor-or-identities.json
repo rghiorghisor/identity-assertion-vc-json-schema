@@ -1,8 +1,10 @@
 {
   "isValid": false,
-  "description": "The W3C VC credentialSubject.person.verifiedBy.name MUST not be empty.",
+  "description": "At least credentialsSubject.namedActor OR credentialSubject.identities MUST be present.",
   "errors": [
-    "/credentialSubject/person/0/verifiedBy/name must NOT have fewer than 1 characters"
+    "/credentialSubject must have required property 'identities'",
+    "/credentialSubject must have required property 'namedActor'",
+    "/credentialSubject must match a schema in anyOf"
   ],
   "vc":  {
     "@context": [
@@ -17,28 +19,6 @@
     "validFrom": "2024-05-27T11:40:40Z",
     "credentialSubject": {
       "id": "did:web:example.com:user:2uudc0k3xwv1xygtvm8itzud8p0j3wcr",
-      "person": [
-        {
-          "name": "First-Name Last-Name",
-          "verifiedBy": {
-            "id": "https://id-verifier-example.com",
-            "name": "",
-            "proof": "https://id-verifier-example.com/proofs/4c03s06xmp5qbixjlwgfmli0sfckdh49"
-          }
-        }
-      ],
-      "identities": [
-        {
-          "type": "socialProvider",
-          "provider": {
-            "id": "https://twitter.com",
-            "name": "Twitter"
-          },
-          "createdAt": "2024-05-27T08:40:39.569856Z",
-          "username": "username",
-          "uri": "https://twitter.com/username"
-        }
-      ],
       "boundTo": {
         "referencedAssertions": [
           {
