@@ -52,13 +52,13 @@
             "hash": "b64'Yzag4o5jO4xPyfANVtw7ETlbFSWZNfeM78qbSi8Abkk='"
           }
         ]
-      },
-      "credentialSchema": [
-        {
-          "id": "https://creator-assertions.github.io/schemas/v1/creator-identity-assertion.json",
-          "type": "JSONSchema"
-        }
-      ]
-    }
+      }
+    },
+    "credentialSchema": [
+      {
+        "id": "https://creator-assertions.github.io/schemas/v1/creator-identity-assertion.json",
+        "type": "JSONSchema"
+      }
+    ]
   }
 }
