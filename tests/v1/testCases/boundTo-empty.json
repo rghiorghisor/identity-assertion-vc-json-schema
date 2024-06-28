@@ -40,13 +40,13 @@
         }
       ],
       "boundTo": {
-      },
-      "credentialSchema": [
-        {
-          "id": "https://creator-assertions.github.io/schemas/v1/creator-identity-assertion.json",
-          "type": "JSONSchema"
-        }
-      ]
-    }
+      }
+    },
+    "credentialSchema": [
+      {
+        "id": "https://creator-assertions.github.io/schemas/v1/creator-identity-assertion.json",
+        "type": "JSONSchema"
+      }
+    ]
   }
 }
