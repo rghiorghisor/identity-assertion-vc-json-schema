@@ -1,6 +1,9 @@
 {
-  "isValid": true,
-  "description": "Full valid VC",
+  "isValid": false,
+  "description": "The W3C VC credentialSubject.affiliations property MUST not be empty.",
+  "errors": [
+    "/credentialSubject/affiliations must NOT have fewer than 1 items"
+  ],
   "vc": {
     "@context": [
       "https://www.w3.org/ns/credentials/v2",
@@ -25,11 +28,6 @@
         }
       ],
       "affiliations": [
-        {
-          "id": "https://example-affiliated-organization.com",
-          "name": "Example Affiliated Organization",
-          "proof": "https://example-affiliated-organization.com/proofs/ck4592p5lk8u05mdg8bg5ac7ishlqfh1"
-        }
       ],
       "identities": [
         {
