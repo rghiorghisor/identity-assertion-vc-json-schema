@@ -84,6 +84,28 @@
               ]
             }
           },
+          "affiliations": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "$ref": "#/$defs/nonEmptyUri"
+                },
+                "name": {
+                  "$ref": "#/$defs/nonEmptyString"
+                },
+                "proof": {
+                  "$ref": "#/$defs/nonEmptyString"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          },
           "identities": {
             "type": "array",
             "minItems": 1,
